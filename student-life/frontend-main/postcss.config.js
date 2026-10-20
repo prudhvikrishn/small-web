@@ -1,7 +1,6 @@
 export default {
-    plugins: {
-      '@tailwindcss/postcss7-compat': {},
-      autoprefixer: {},
-    },
-  };
-  
+  plugins: {
+    '@tailwindcss/postcss7-compat': { config: './tailwind.config.cjs' },
+    autoprefixer: {},
+  },
+};
